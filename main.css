@@ -1,0 +1,650 @@
+
+.cont{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page .container
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .container
+{
+    position:relative;
+    background-color: white;
+   gap: 30px ;
+   border-radius: 20px ;
+   flex-wrap: wrap;
+   position: relative;
+   box-shadow:0px 5px 40px rgba(30, 225, 225, 0.35); ;
+   
+}
+
+.login-page .right-side
+{
+    background-color: rgb(17, 130, 156);
+   
+   flex-grow: 1;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+   padding: 40px 35px ;
+   
+}
+.login-page .gif-img
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.login-page .contnet
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:20px;
+color: white;
+gap: 35px;
+}
+
+.login-page .contnet h1
+{
+    font-size: 40px;
+}
+.login-page .contnet p
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+.login-page .contnet .creat-btn button
+{
+background-color: transparent;
+color: #fff;
+font-size: 16px;
+padding: 8px 45px;
+border: 1px solid #ffffff;
+border-radius: 8px;
+font-weight: 600;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.login-page .left-side
+{
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+   gap: 20px;
+   flex-grow: 1;
+  padding: 30px 50px ; 
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+}
+
+
+.login-page .left-side  input
+{
+    background-color: #eee;
+    border: none;
+    min-width: 220px ;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.login-page .left-side button
+{
+background-color: hsl(191, 80%, 34%);
+color: hsl(0, 0%, 100%);
+font-size: 16px;
+padding: 8px 45px;
+border: 3px solid #ffffff;
+border-radius: 8px;
+font-weight: 600;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.toggle-left
+{
+    transform: translateX(-112%);
+    border-radius: 0px 150px 100px 0px !important;
+}
+.toggle-right
+{
+    transform: translateX(100%);
+}
+
+.f 
+{
+    position: absolute;
+    left:0;
+    opacity: 0;
+    display: none !important;
+}
+.active
+{
+    display:flex !important;
+    opacity:1;
+     left:50%;
+}
+.not-active
+{
+opacity: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid aqua;
+}
+
+header .row
+{
+gap: 550px;
+ justify-content: space-evenly;
+   
+}
+
+header nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+margin-left: 400px;
+}
+
+header nav ul
+{
+    display: flex;
+    justify-content: center;
+     gap:65px
+}
+
+header nav ul a
+{
+color: var(--mainColor);
+font-weight: 700;
+font-size: 17px;
+}
+
+header .right-side 
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column; 
+   
+    
+}
+
+header .icon img
+{ 
+   width:80px;
+}
+
+header form
+{
+    display: flex;
+    justify-content: center;
+}
+
+header form input
+{
+   border: 0px;
+   padding: 5px 8px;
+   min-width:200px;
+}
+
+header form img 
+{
+    
+   width: 40px;
+   background-color: #ffffff;
+   padding: 0px 4px;
+ 
+}
+
+header form button 
+{
+    border: 0;
+    background-color: #fff;
+    padding: 4px 2px;
+}
+
+
+header nav a:hover 
+{
+   color: #FF4655;
+}
+
+
+
+.hero {
+    height: 850px;
+    background: url('./img/concept-dental-treatment-doctor-shows-tooth-his-hand-1.jpg') no-repeat center center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+
+
+.hero-content
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+ text-align: right;
+padding: 0px 250px;
+gap:25px
+}
+.hero-content h2
+{
+   
+    font-size: 69px;
+    color: #fdf8f8;
+}
+.hero-content .btn {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 12px 40px;
+ margin-top: 20px;
+ cursor: pointer;
+ background-color: rgb(70, 196, 196);
+ border: none;
+
+}
+.hero-content  button
+{
+    color: white;
+    font-family: var(--mainFont);
+    font-size: 17px;
+    font-weight: 650;
+    transition: 300ms ;
+}
+
+.hero-content button:hover
+{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+span
+{
+    font-weight:900;
+    color: rgb(255, 255, 255);
+}
+
+.hero-content .left-side
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+    width: 5px; 
+    height: 200px; 
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.primary-button {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border: 1px solid #0E1822;
+    padding: 0.8rem 2.1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-color: #0E1822;
+    background-size: 200%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border, color;
+    position: relative;
+    z-index: 1;
+
+   }
+   
+   .primary-button:hover {
+    border: 1px solid #FF4655;
+    color: white;
+    background-position: 40%;
+   }
+   
+  
+   .button-borders {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+   }
+   
+   .button-borders:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5em);
+    height: 50%;
+    left: -0.3em;
+    top: -0.3em;
+    border: 1px solid #0E1822;
+    border-bottom: 0px;
+
+   }
+   
+   .button-borders:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5em);
+    height: 50%;
+    left: -0.3em;
+    bottom: -0.3em;
+    border: 1px solid #0E1822;
+    border-top: 0px;
+    z-index: 0;
+   }
+   
+
+   .logo
+   {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   }
+   .logo .title
+   {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:22px;
+    font-weight: 900;
+
+   }
+
+
+   .appointment-btn {
+    background: #FF4655;
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.result-work
+{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+}
+
+.result-work h2
+{
+text-align: end;
+padding: 40px ;
+}
+
+.result-work h2 span
+{
+    color: #FF4655;
+}
+.result-work .container
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:29px
+    
+}
+.result-work .card
+{
+   
+    padding: 50px 20px ;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+.result-work .card img 
+{
+width: 300px;
+}
+
+.before ,.after
+{
+    position: relative;
+    
+}
+
+.before-text
+{
+    position: absolute;
+    right:2px;
+    bottom: 10px;
+    background-color: #ffffffc4;
+    padding: 5px 8px;
+    font-size: 16px;
+}
+
+.after-text
+{
+    position: absolute;
+    right:2px;
+    bottom: 10px;
+    background-color: #ffffffc4;
+    padding: 5px 8px;
+    font-size: 16px;  
+}
+
+.card:hover {
+    filter: none;
+    transition: 300ms ease-in-out;
+    transform: scale(1.2);
+}
+
+.row:hover .card:not(:hover) {
+    filter: blur(5px);
+}
+
+
+
+
+.services 
+{
+    margin-top: 120px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .row
+{
+    padding: 80px;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.services .first-cards-cont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.services .seconde-cards-cont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.services img
+{
+    width: 120px;  
+}
+.services .service-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+}
+
+.services .service-card .content
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 9px;
+}
+
+.services .service-card .content h2
+{
+   font-size: 16px;
+}
+
+.services .service-card .content p
+{
+ font-size: 12px;
+
+}
+
+.service-card
+{
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px black ;
+    padding: 19px 12px;
+    transition: 400ms ease-in-out;
+}
+.services .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .title {
+    display: inline-block; 
+    padding: 10px 50px; 
+    border: 3px solid #00c8d3; 
+    border-radius: 50px; 
+    text-align: center;
+    font-size: 32px; 
+    font-weight: bold; 
+    color: #00c8d3; 
+  
+}
+
+
+
+.button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #00c8d3;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.service-card .icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.button:hover .icon {
+  transform: translate(4px);
+}
+
+.button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
